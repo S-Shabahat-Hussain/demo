@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+import { useState } from "react";
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='w-[100vw] h-[100vh] flex bg-[#378ef9] text-white'>
+      <div>Increment && Decrement</div>
+      <div>
+        <button> - </button>
+        <div>
+
+        </div>
+        <button> + </button>
+      </div>
+        <button>Reset</button>
     </div>
   );
 }
